@@ -4,6 +4,8 @@
 
 # Cyphon
 
+# NOTE: This project is no longer actively maintained.
+
 ## Collect, Alert, Respond
 
 Cyphon is an incident-response platform that receives, processes, and triages events to create a more efficient analytic workflow — aggregating data, bundling and prioritizing alerts, and empowering analysts to investigate and document incidents.
