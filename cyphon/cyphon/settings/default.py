@@ -43,7 +43,7 @@ import glob
 
 #: A unique, unpredictable value used to provide cryptographic signing.
 SECRET_KEY = 'this-should-be-a-string-of-random-characters'
-GDAL_LIBRARY_PATH=glob('/usr/lib/libgdal.so.*')[0]
+GDAL_LIBRARY_PATH=glob('/usr/lib/libgdal.so*')[0]
 
 HOST_SETTINGS = {
     'ALLOWED_HOSTS': ['localhost'],
