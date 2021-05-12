@@ -34,6 +34,7 @@ from collections import OrderedDict
 from datetime import timedelta
 import os
 import sys
+import glob
 
 
 #########################
@@ -42,7 +43,7 @@ import sys
 
 #: A unique, unpredictable value used to provide cryptographic signing.
 SECRET_KEY = 'this-should-be-a-string-of-random-characters'
-GDAL_LIBRARY_PATH = '/usr/lib/libgdal.so'
+GDAL_LIBRARY_PATH=glob('/usr/lib/libgdal.so.*')[0]
 
 HOST_SETTINGS = {
     'ALLOWED_HOSTS': ['localhost'],
