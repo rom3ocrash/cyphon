@@ -43,7 +43,7 @@ RUN apk add -U --no-cache \
       --repository http://dl-5.alpinelinux.org/alpine/edge/community/ \
       binutils \
       gdal \
-      gdal-bin \
+      python3-gdal \
       postgis \
       proj-dev \
       py3-gdal \
