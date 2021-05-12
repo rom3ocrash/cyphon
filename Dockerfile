@@ -31,7 +31,7 @@ ENV CYPHON_HOME /usr/src/app
 ENV LOG_DIR     /var/log/cyphon
 ENV PATH        $PATH:$CYPHON_HOME
 ENV NLTK_DATA   /usr/share/nltk_data
-ENV GDAL_LIBRARY_PATH   /usr/lib/libgdal.so
+ENV GDAL_LIBRARY_PATH   /usr/share/gdal
 
 # copy requirements.txt to the image
 COPY requirements.txt $CYPHON_HOME/requirements.txt
