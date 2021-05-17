@@ -101,4 +101,4 @@ VOLUME ["$CYPHON_HOME/keys", "$CYPHON_HOME/media", "$CYPHON_HOME/static"]
 
 EXPOSE 8000
 
-#CMD $CYPHON_HOME/entrypoints/run.sh
+CMD $CYPHON_HOME/entrypoints/run.sh
