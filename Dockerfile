@@ -22,7 +22,7 @@
 
 FROM python:3.6-alpine
 
-MAINTAINER Cyphon <cyphondev@controlscan.com>
+LABEL MANTAINER="Romeo Mungiu"
 
 ARG UID=1000
 ARG GID=1000
