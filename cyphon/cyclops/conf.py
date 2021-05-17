@@ -18,7 +18,7 @@
 Settings for the Cyclops package.
 """
 
-CYCLOPS_AWS_BUCKET_URL = 'https://s3.amazonaws.com/cyclops-public'
+CYCLOPS_AWS_BUCKET_URL = 'https://raw.githubusercontent.com/cyphonmdr/cyclops/master/resources'
 
 CYCLOPS_VERSION = '0.5.4'
 """str
