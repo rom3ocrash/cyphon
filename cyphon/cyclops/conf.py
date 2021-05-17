@@ -27,8 +27,8 @@ Version number of Cyclops to use.
 """
 
 CYCLOPS_JS_URL = (
-    '{0}/{1}/cyclops.js'.format(
-        CYCLOPS_AWS_BUCKET_URL, CYCLOPS_VERSION))
+    '{0}/cyclops.js'.format(
+        CYCLOPS_AWS_BUCKET_URL,))
 """str
 
 CDN URL of the cyclops JS file. Contains the main application.
