@@ -29,7 +29,7 @@ ENV CYPHON_HOME /usr/src/app
 ENV LOG_DIR     /var/log/cyphon
 ENV PATH        $PATH:$CYPHON_HOME
 ENV NLTK_DATA   /usr/share/nltk_data
-ENV GDAL_LIBRARY_PATH   /usr/lib/libgdal.so.28
+ENV GDAL_LIBRARY_PATH   /usr/lib/libgdal.so
 
 # copy requirements.txt to the image
 COPY requirements.txt $CYPHON_HOME/requirements.txt
@@ -45,8 +45,8 @@ RUN apk add -U --no-cache \
       proj-dev \
       py3-gdal \
       su-exec \
-&& ln -s /usr/lib/libgdal.so.28.0.2 /usr/lib/libgdal.so.28 \
 && ln -s /usr/lib/libgeos_c.so.1.14.2 /usr/lib/libgeos_c.so \
+&& ls -s /usr/lib/libgdal.so.28 /usr/lib/libgdal.so \
 && apk add -U --no-cache \
       --repository http://dl-5.alpinelinux.org/alpine/edge/main/ \
       --repository http://dl-5.alpinelinux.org/alpine/edge/testing/ \
