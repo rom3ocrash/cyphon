@@ -46,7 +46,7 @@ RUN apk add -U --no-cache \
       py3-gdal \
       su-exec \
 && ln -s /usr/lib/libgeos_c.so.1.14.2 /usr/lib/libgeos_c.so \
-&& ls -s /usr/lib/libgdal.so.28 /usr/lib/libgdal.so \
+&& ln -s /usr/lib/libgdal.so.28 /usr/lib/libgdal.so \
 && apk add -U --no-cache \
       --repository http://dl-5.alpinelinux.org/alpine/edge/main/ \
       --repository http://dl-5.alpinelinux.org/alpine/edge/testing/ \
