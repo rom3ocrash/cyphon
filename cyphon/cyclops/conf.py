@@ -20,7 +20,7 @@ Version number of Cyclops to use.
 """
 
 CYCLOPS_JS_URL = (
-    'static/js/cyclops.js')
+    '/static/js/cyclops.js')
 """str
 
 CDN URL of the cyclops JS file. Contains the main application.
