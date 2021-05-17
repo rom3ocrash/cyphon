@@ -66,7 +66,6 @@ def application(request):
     return render(request, 'cyclops/app.html', {
         'notifications_enabled': config.PUSH_NOTIFICATIONS_ENABLED,
         'mapbox_access_token': settings.CYCLOPS['MAPBOX_ACCESS_TOKEN'],
-        'cyclops_version': CYCLOPS_VERSION,
         'cyphon_version': request.cyphon_version,
         'css_url': CSS_URL,
         'js_url': JS_URL,
