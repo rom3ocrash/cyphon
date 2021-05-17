@@ -20,14 +20,14 @@ Version number of Cyclops to use.
 """
 
 CYCLOPS_JS_URL = (
-    '/cyclops.js')
+    'static/js/cyclops.js')
 """str
 
 CDN URL of the cyclops JS file. Contains the main application.
 """
 
 CYCLOPS_CSS_URL = (
-    '/cyclops.css')
+    '/static/css/cyclops.css')
 """str
 
 CDN URL of the cyclops CSS file. Contains all the styling.
