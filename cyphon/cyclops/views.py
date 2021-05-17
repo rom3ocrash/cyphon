@@ -26,7 +26,7 @@ from django.http import JsonResponse
 from django.shortcuts import render
 
 # local
-from .conf import CYCLOPS_JS_URL, CYCLOPS_CSS_URL, CYCLOPS_VERSION
+from .conf import CYCLOPS_JS_URL, CYCLOPS_CSS_URL
 
 DEVELOPMENT_ENABLED = settings.CYCLOPS.get('DEVELOPMENT_ENABLED', False)
 DEVELOPMENT_URL = settings.CYCLOPS.get(
