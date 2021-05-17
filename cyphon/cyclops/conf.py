@@ -35,8 +35,8 @@ CDN URL of the cyclops JS file. Contains the main application.
 """
 
 CYCLOPS_CSS_URL = (
-    '{0}/{1}/cyclops.css'.format(
-        CYCLOPS_AWS_BUCKET_URL, CYCLOPS_VERSION))
+    '{0}/cyclops.css'.format(
+        CYCLOPS_AWS_BUCKET_URL))
 """str
 
 CDN URL of the cyclops CSS file. Contains all the styling.
