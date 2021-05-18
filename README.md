@@ -4,7 +4,7 @@
 
 # Cyphon
 
-# NOTE: This project is no longer actively maintained.
+# NOTE: IT WORKS!!!
 
 ## Collect, Alert, Respond
 
